@@ -1,4 +1,4 @@
-<head>
+  <head>
   <title>FrozenRidge | Newsletter</title>
 
   <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
@@ -14,7 +14,6 @@
   <div class='footer'>
     {{> footer }}
   </div>
-
 </body>
 
 <template name = "main">
@@ -45,12 +44,9 @@
         {{> badEmail}}
       {{/if}}
       <input id="email"><button>&gt;</button>
+      </form>
   {{/if}}
-  </form>
-
-
 </template>
-
 
 <template name = "admin">
   <h1>Signed up Customers</h1>
@@ -61,7 +57,6 @@
     {{/each }}
   </table>
 </template>
-
 
 <template name="badEmail">
   <div class="error">
